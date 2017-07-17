@@ -1,0 +1,13 @@
+@import 'vars';
+@import 'mixins';
+@import 'components/footer';
+@import 'components/reddit-item';
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}

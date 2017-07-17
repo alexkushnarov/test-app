@@ -1,0 +1,24 @@
+{
+  "name": "sample-web-app",
+  "version": "0.6.9",
+  "description": "This is a angular sample web app",
+  "main": "",
+  "authors": [
+    "Sample"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/scakushnarov/test-app",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.15.1"
+  },
+  "devDependencies": {}
+}

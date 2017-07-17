@@ -1,0 +1,7 @@
+<app-header></app-header>
+
+<div>
+	<div ng-repeat="item in model.redditData.data.children">
+		<reddit-item ups="item.data.ups" img="item.data.thumbnail" title="item.data.title" created-utc="item.data.created_utc" author="item.data.author" num-comments="item.data.num_comments"></reddit-item>
+	</div>
+</div>
